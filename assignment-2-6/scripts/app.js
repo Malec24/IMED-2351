@@ -9,6 +9,9 @@ console.log(firstNumber + secondNumber);
 const name = "Marguerite"; //
 
 
+const car = {type:"Fiat", model:"500", color:"white"};
+
+
 const x = 10;
 // Here x is 10
 
