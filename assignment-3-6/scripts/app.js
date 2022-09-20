@@ -1,4 +1,21 @@
 
+
+function displayMessage (){
+ var message = document.getElementById("message");
+  alert(message.value);
+
+
+}
+
+function addNumbers(firstNumber, secondNumber){
+ var total =firstNumber + secondNumber;
+ return total;
+
+}
+
+
+
+
 function myFunction() {
     alert("Hello World!");
   } myFunction();
@@ -11,10 +28,6 @@ var secondNumber = 200 ;
 console.log(firstNumber + secondNumber);
 
 const name = "Marguerite"; //
-
-
-const car = {type:"Fiat", model:"500", color:"white"};
-
 
 
 const x = 10;
