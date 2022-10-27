@@ -13,7 +13,7 @@ function addNumbers(firstNumber, secondNumber){
 
 }
 
-
+addNumbers();
 
 
 function myFunction() {
