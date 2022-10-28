@@ -57,3 +57,76 @@ var laptop = {
    camera: true,
 }
 
+// These are string variables
+var month = "March"; 
+var holiday = "Holloween";
+var sport = "Soccer";
+var televisionShow = "Game of Thrones";
+var movie = "Seven";
+
+
+
+
+// These are integer variables
+var section = 4;
+var seatNumber = 432;
+var rowNumber = 23;
+var month = 03;
+var day = 25;
+
+
+
+
+//These are boolean variables
+var dayTime = true;
+var cloudy = true;
+var raining = false;
+var weekend = false;
+var thursday = true;
+
+
+
+
+//These are array variables
+var colors = ["Blue","Green","Red"];
+var animals = ["Dog","Cat","Bird"];
+var vehicles = ["Car","Truck","Van"];
+var instruments = ["Drum","Cow-bell","Guitar"];
+var shoes = ["Sneakers","Sandles","Crocs"];
+
+
+
+
+// These are object Variables
+var person1 = {
+    firstName: "Maria",
+    age: 24,
+    human: true
+}
+
+var dog = {
+    legNumber: 4,
+    fur: "brown",
+    largeBreed: true
+}
+
+var cat = {
+    firstName: "Gracie",
+    color: "orange",
+    tail: "12 inches",
+    nice: false
+}
+
+var vehicle = {
+    vehicleType: "car",
+    doors: 4,
+    color: "green"
+}
+
+var building = {
+    buildingName: "Hotel 1",
+    windows: 40,
+    backEntrance: true,
+    Occupancy: "FULL"
+} 
+
