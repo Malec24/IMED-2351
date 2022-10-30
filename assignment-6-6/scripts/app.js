@@ -1,10 +1,46 @@
 
-const text = document.querySelector(".title");
 
-const changeColor = document.querySelector(".changeColor");
+const schedule = ["Wake up", "Get dressed","Brush teeth","Cook breakfast"];
+
+const cook = schedule.indexOf("Cook breakfast");
+
+console.log(schedule[cook]);
 
 
-text.classList.add("change");
+
+const person = {
+  firstName: "Maria",
+  lastName: "Doe",
+  age: 24,
+  human: true
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
