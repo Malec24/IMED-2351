@@ -16,12 +16,27 @@
     <input id="message" type="text">
     <button type="button" onclick="displayMessage()"> displayMessage </button>
 
+    <p id="demo"></p>
 
     <script>
-        let x = new Date("2017-09-30");
-        document.getElementById("demo").innerHTML = Number(x); 
-        </script>
-        
+    const animals = ["Cat", "Dog", "Snake", "Bird"];
+    let i, len, text;
+    for (i = 0, len = animals.length, text = ""; i < len; i++) {
+      text += animals[i] + "<br>";
+    }
+
+    document.getElementById("demo").innerHTML = text;
+    </script>
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+
 
 
 </body>

@@ -1,3 +1,6 @@
+
+
+
 var firstName = "Mary";
 // This is a string variable type
 // A string variable has the value surrounded by quotes 
@@ -12,7 +15,7 @@ var age = 32;
 var isParent = true;
 // This is a boolean variable type
 // A boolean variable either has a value of true or false with no quotes 
-//Use this when needing to identify something true or false 
+// Use this when needing to identify something true or false 
 
 
 var countries = ["US","MX","AU"];
@@ -59,7 +62,7 @@ var laptop = {
 
 // These are string variables
 var month = "March"; 
-var holiday = "Holloween";
+var holiday = "Halloween";
 var sport = "Soccer";
 var televisionShow = "Game of Thrones";
 var movie = "Seven";
@@ -92,7 +95,7 @@ var colors = ["Blue","Green","Red"];
 var animals = ["Dog","Cat","Bird"];
 var vehicles = ["Car","Truck","Van"];
 var instruments = ["Drum","Cow-bell","Guitar"];
-var shoes = ["Sneakers","Sandles","Crocs"];
+var shoes = ["Sneakers","Sandals","Crocs"];
 
 
 
