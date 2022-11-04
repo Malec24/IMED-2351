@@ -1,5 +1,5 @@
 
-const names = ["Beao", "Grey", "Todd", "Bungus", "Mishka"]
+const names = ["Beao", "Grey", "Todd", "Bungus", "Mishka"];
 
 for (name of names) {
     console.log(name);

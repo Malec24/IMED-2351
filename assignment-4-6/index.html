@@ -1,43 +1,30 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Document</title>
 </head>
+
 <body>
-    
-    <script src="scripts/app.js" ></script>
+	<script src="scripts/app.js">
+	</script> <button onclick="document.write(5 + 6)" type="button">Try it</button>
 
+	<form>
+		<input id="message" type="text"> <button onclick="displayMessage()" type="button">displayMessage</button> 
+		<script>
+		        const animals = ["Cat", "Dog", "Snake", "Bird"];
+		        let i, len, text;
+		        for (i = 0, len = animals.length, text = ""; i < len; i++) {
+		          text += animals[i] + "<br>";
+		        }
 
-    <button type="button" onclick="document.write(5 + 6)">Try it</button>
-
-    <input id="message" type="text">
-    <button type="button" onclick="displayMessage()"> displayMessage </button>
-
-    
-
-    <script>
-    const animals = ["Cat", "Dog", "Snake", "Bird"];
-    let i, len, text;
-    for (i = 0, len = animals.length, text = ""; i < len; i++) {
-      text += animals[i] + "<br>";
-    }
-
-   
-    </script>
-
-<script>
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
-}
-
-
-
-
+		       
+		</script> 
+		
+	</form>
 </body>
 </html>
