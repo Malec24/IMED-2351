@@ -1,91 +1,49 @@
 
 
-if (time < 10) {
-  greeting = "Good morning";
-} else if (time < 20) {
-  greeting = "Good day";
-} else {
-  greeting = "Good evening";
+
+let favFruit = 'kiwi';
+console.log('My favorite fruit is  ' + favFruit + '.'); 
+
+
+
+if
+(x 
+>
+y) {
+ alert("Hello World");
+} 
+else
+{
+ alert("Goodbye");
 }
 
 
 
-let day = "Good morning, ";
-let night = "Good evening, ";
-let question = "How are you";
+let txt = "Hello World";
+txt = 
+txt.toUpperCase()
+;
 
-let greetingDay = day + question;
-let greetingNight = night + question;
 
-console.log(greetingDay);
-console.log(greetingNight);
+
+
+switch
+(fruits) {
+  
+case
+ "Banana":
+    alert("Hello")
+    break;
+  
+case
+ "Apple":
+    alert("Welcome")
+    break;    
+}
+
 
 
 Number(new Date("2022-09-30"));
 
 
 
-switch (new Date().getDay()) {
-  case 6:
-    text = "Today is Saturday";
-    break;
-  case 0:
-    text = "Today is Sunday";
-    break;
-  default:
-    text = "Looking forward to the Weekend";
-}
-
-
-
-/*
-function displayMessage (){
- var message = document.getElementById("message");
-  alert(message.value);
-
-
-}
-
-function addNumbers(firstNumber, secondNumber){
- var total =firstNumber + secondNumber;
- return total;
-
-}
-
-function myFunction() {
-    alert("Hello World!");
-  } myFunction();
-
-
-var firstNumber = 100 ; // 
-
-var secondNumber = 200 ; 
-
-console.log(firstNumber + secondNumber);
-
-const name = "Marguerite"; //
-
-
-const x = 10;
-// Here x is 10
-
-{
-const x = 2;
-// Here x is 2
-}
-
-// Here x is 10
-
-const person = {
-  firstName: "John",
-  lastName : "Doe",
-  id       : 5566,
-  fullName : function() {
-    return this.firstName + " " + this.lastName;
-  }
-};
-
-
-console.log("anything honestly");
-
-*/

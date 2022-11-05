@@ -27,7 +27,7 @@ var secondNumber = 200 ;
 
 console.log(firstNumber + secondNumber);
 
-const name = "Marguerite"; //
+const name = "Marguerite"; 
 
 
 const x = 10;
