@@ -11,12 +11,19 @@ for (name of names) {
 }
 
 
+
 let loading = 0;
 while(loading < 100){
   console.log("Website is still loading!");
 loading++;
 
 }
+
+
+
+
+
+
 
 
 const userList = document.querySelectorAll(".cat-list li");
@@ -33,10 +40,6 @@ const changeColor = document.querySelector(".changeColor");
 
 
 
-changeColor.addEventListener('click', function() {
-text.classList.add('change');
-
-});
 
 
 
