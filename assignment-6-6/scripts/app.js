@@ -11,12 +11,12 @@ console.log(schedule[cook]);
 const person = {
   firstName: "Maria",
   lastName: "Doe",
-  age: 24,
+  age: 22,
   human: true
 
 }
 
-
+console.log(person.age);
 
 
 
