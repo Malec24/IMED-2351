@@ -5,7 +5,7 @@ const game = () => {
   let cScore = 0;
 
 
-  
+
 
   const startGame = () => {
    
@@ -141,8 +141,6 @@ const game = () => {
       }
     }
  
-    
-
 
 
     if (playerChoice === "scissors") {
@@ -164,7 +162,6 @@ const game = () => {
   };
 
 
-
   startGame();
   
   playMatch();
@@ -173,7 +170,6 @@ const game = () => {
 
 
 game();
-
 
 
 
