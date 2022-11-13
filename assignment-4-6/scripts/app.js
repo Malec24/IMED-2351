@@ -1,8 +1,7 @@
 
 
 let txt = "Hello World";
-txt = txt.
-replace
+txt = txt.replace
 ("Hello", "Welcome");
 
 
