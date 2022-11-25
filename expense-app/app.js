@@ -1,12 +1,10 @@
 document.getElementById("expForm").addEventListener("submit", addExpense);
 
-// initial array of expenses, reading from localStorage
 const expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
 function addExpense(e) {
   e.preventDefault();
 
-  // get type, name, date, and amount
   let type = document.getElementById("type").value;
   let name = document.getElementById("name").value;
   let date = document.getElementById("date").value;
@@ -22,7 +20,7 @@ function addExpense(e) {
     };
 
     expenses.push(expense);
-    // localStorage
+
     localStorage.setItem("expenses", JSON.stringify(expenses));
   }
 
@@ -56,7 +54,6 @@ const deleteExpense = (id) => {
     }
   }
 
-  // localStorage
   localStorage.setItem("expenses", JSON.stringify(expenses));
   showExpenses();
 };
